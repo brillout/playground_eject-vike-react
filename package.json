@@ -9,7 +9,7 @@
     "eject": "^1.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vike-react": "link:./ejected/vike-react"
+    "vike-react": "^0.5.8"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",
