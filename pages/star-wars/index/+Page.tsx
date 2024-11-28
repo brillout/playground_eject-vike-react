@@ -1,5 +1,5 @@
 import React from "react";
-import { useData } from "vike-react/useData";
+import { useData } from "../../../hooks/useData";
 import type { Data } from "./+data.js";
 
 export default function Page() {
