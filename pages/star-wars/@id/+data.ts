@@ -2,6 +2,7 @@
 
 import type { PageContextServer } from "vike/types";
 import type { MovieDetails } from "../types.js";
+// TODO: how can this path be replaced?
 import { useConfig } from "vike-react/useConfig";
 
 export type Data = Awaited<ReturnType<typeof data>>;
