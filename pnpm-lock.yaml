@@ -20,9 +20,6 @@ importers:
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
-      vike-react:
-        specifier: ^0.5.8
-        version: 0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11))
     devDependencies:
       '@types/react':
         specifier: ^18.3.12
@@ -805,13 +802,6 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  vike-react@0.5.8:
-    resolution: {integrity: sha512-qZlpB7WTYmc0O6Y3YCGdoDdUDdhr7nt77Y3y7Zj/PLSKrAcr3W7EBFeVVY+hBLbMS9Z9631fD8jUz88kgaYhpA==}
-    peerDependencies:
-      react: '>=18.0.0'
-      react-dom: '>=18.0.0'
-      vike: '>=0.4.182'
-
   vike@0.4.205:
     resolution: {integrity: sha512-eLX/LtUpk+2Gnj4UNWH240N8BE9q3+BqtOW4VX0j4pHMJR0yEcZGLUrYys0NoqNWKJx3h2rHrhhSv05dUk6FlA==}
     engines: {node: '>=18.0.0'}
@@ -1389,7 +1379,8 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  isbot-fast@1.2.0: {}
+  isbot-fast@1.2.0:
+    optional: true
 
   js-tokens@4.0.0: {}
 
@@ -1446,6 +1437,7 @@ snapshots:
       isbot-fast: 1.2.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
+    optional: true
 
   react@18.3.1:
     dependencies:
@@ -1509,13 +1501,6 @@ snapshots:
       browserslist: 4.24.2
       escalade: 3.2.0
       picocolors: 1.1.1
-
-  vike-react@0.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11)):
-    dependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-streaming: 0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      vike: 0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11)
 
   vike@0.4.205(react-streaming@0.3.43(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(vite@5.4.11):
     dependencies:
